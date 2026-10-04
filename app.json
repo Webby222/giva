@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "GIVA",
+    "slug": "giva",
+    "scheme": "giva",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.giva.app"
+    },
+    "android": {
+      "package": "com.giva.app",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
